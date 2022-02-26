@@ -1,6 +1,6 @@
 // import Timer from './Timer'
 import Banner from '../../../assets/banner-1.jpg'
-import BannerMobile from '../../../assets/banner-1-mobile.jpg'
+// import BannerMobile from '../../../assets/banner-1-mobile.jpg'
 
 function Home() {
   return (

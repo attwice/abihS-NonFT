@@ -134,25 +134,25 @@ function GoldenGuests() {
     let today = new Date().valueOf()
     let k = new Date().setHours(0,0,0,0)
     setTotal(Math.round((today - k) * 7777 / 2 / 24 / 60 / 60 / 1000))
-    const slider = document.querySelector(".custom-slider");
-    const initSlider = new window.Swiper(slider, {
-      spaceBetween: 30,
-      slidesPerView: 2,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        992: {
-          spaceBetween: 30,
-          slidesPerView: 7,
-        },
-        768: {
-          spaceBetween: 30,
-          slidesPerView: 4,
-        }
-      }
-    });
+    // const slider = document.querySelector(".custom-slider");
+    // const initSlider = new window.Swiper(slider, {
+    //   spaceBetween: 30,
+    //   slidesPerView: 2,
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //   },
+    //   breakpoints: {
+    //     992: {
+    //       spaceBetween: 30,
+    //       slidesPerView: 7,
+    //     },
+    //     768: {
+    //       spaceBetween: 30,
+    //       slidesPerView: 4,
+    //     }
+    //   }
+    // });
   }, []);
 
   return (
