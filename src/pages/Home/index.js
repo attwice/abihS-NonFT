@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { default as HomeSection } from "./sections/Home";
 import RoadMap from "./sections/Roadmap";
 import Footer from "../../components/Footer";
@@ -11,14 +11,14 @@ import FAQ from "./sections/FAQ";
 
 // import { ReactComponent as Brand } from "../../assets/brand.svg";
 
-const Loading = () => (
-  <div className="loading--container">
-  </div>
-)
+// const Loading = () => (
+//   <div className="loading--container">
+//   </div>
+// )
 
 function Home() {
-  const timeoutRef = useRef(null);
-  const [isFontLoaded, setIsFontLoaded] = useState(true);
+  // const timeoutRef = useRef(null);
+  // const [isFontLoaded, setIsFontLoaded] = useState(true);
 
   // useEffect(() => {
   //   document.fonts.onloading = () => {
